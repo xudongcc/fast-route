@@ -1,34 +1,33 @@
 {
   "name": "fast-route",
-  "version": "1.2.2",
+  "version": "1.5.0",
   "description": "Fast request router for Node.js",
-  "main": "lib/route.js",
-  "directories": {
-    "test": "test"
+  "main": "lib/Router.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   },
   "scripts": {
     "test": "mocha"
   },
-  "engines": {
-    "node": "^6.0.0"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xudongcc/fast-route.git"
+    "url": "git+ssh://git@github.com/xudongcc/fast-route.git"
   },
   "keywords": [
     "routing",
     "router",
-    "route"
+    "route",
+    "fast"
   ],
-  "author": {
-    "name": "XuDong",
-    "email": "i@xudong.cc"
-  },
+  "author": "XuDong <i@xudong.cc>",
   "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.15.0"
-  },
   "bugs": {
     "url": "https://github.com/xudongcc/fast-route/issues"
   },
